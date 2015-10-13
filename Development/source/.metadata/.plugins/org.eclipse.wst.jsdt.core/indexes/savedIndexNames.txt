@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2225593671.index
+951442991.index
+1337555992.index
+1875095027.index
+3613351760.index

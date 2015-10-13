@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 9, 2015 1:45:50 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.enclaveit.brea.entities.UsersInfo" table="users_info" catalog="brea">
+        <id name="userId" type="int">
+            <column name="user_id" />
+            <generator class="foreign">
+                <param name="property">users</param>
+            </generator>
+        </id>
+        <one-to-one name="users" class="com.enclaveit.brea.entities.Users" constrained="true"></one-to-one>
+        <property name="userFirstName" type="string">
+            <column name="user_first_name" length="45" />
+        </property>
+        <property name="userLastName" type="string">
+            <column name="user_last_name" length="45" />
+        </property>
+        <property name="userEmail" type="string">
+            <column name="user_email" />
+        </property>
+        <property name="userPhone" type="string">
+            <column name="user_phone" length="45" />
+        </property>
+        <property name="userAddress" type="string">
+            <column name="user_address" />
+        </property>
+    </class>
+</hibernate-mapping>

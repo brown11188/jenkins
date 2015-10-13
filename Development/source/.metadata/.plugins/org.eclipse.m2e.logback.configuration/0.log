@@ -1,0 +1,86 @@
+2015-10-06 13:07:38,483 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.enclaveit.brea:breaWebapp:1.0-SNAPSHOT @ /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/pom.xml.
+2015-10-06 13:07:40,143 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-classic-core:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,250 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libbase:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,262 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libdocbundle:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,264 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libfonts:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,275 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformat:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,291 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformula:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,337 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libloader:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,358 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:librepository:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,366 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libserializer:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,382 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libxml:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:40,403 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libswing:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:07:40,409 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:40,626 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:40,656 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fife.ui:rsyntaxtextarea:jar:1.3.2 is missing, no dependency information available
+2015-10-06 13:07:40,875 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-legacy-charts:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:07:43,648 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-classic-core:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,651 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libbase:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,652 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libdocbundle:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,654 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libfonts:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,668 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformat:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,675 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformula:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,676 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libloader:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,677 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:librepository:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,684 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libserializer:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,686 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libxml:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:43,687 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libswing:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:07:43,689 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:43,723 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:43,726 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fife.ui:rsyntaxtextarea:jar:1.3.2 is missing, no dependency information available
+2015-10-06 13:07:43,748 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-legacy-charts:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:07:45,984 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:07:45,990 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:07:46,003 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:07:46,003 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:07:54,540 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-classic-core:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,547 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libbase:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,548 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libdocbundle:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,549 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libfonts:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,555 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformat:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,556 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libformula:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,558 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libloader:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,559 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:librepository:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,560 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libserializer:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,562 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libxml:jar:5.3.0.0-200 is missing, no dependency information available
+2015-10-06 13:07:54,564 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:libswing:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:07:54,570 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:54,606 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:07:54,615 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.fife.ui:rsyntaxtextarea:jar:1.3.2 is missing, no dependency information available
+2015-10-06 13:07:54,638 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-reporting-engine:pentaho-reporting-engine-legacy-charts:jar:5.3.0.0-180 is missing, no dependency information available
+2015-10-06 13:08:23,564 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.enclaveit.brea:breaWebapp:1.0-SNAPSHOT @ /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/pom.xml.
+2015-10-06 13:08:26,250 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:08:26,281 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:08:26,295 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:08:26,296 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:08:51,630 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.enclaveit.brea:breaWebapp:1.0-SNAPSHOT @ /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/pom.xml.
+2015-10-06 13:08:54,062 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.pentaho.org/artifactory/repo/pentaho-library/flute/5.3.0.0-190/flute-5.3.0.0-190.pom
+2015-10-06 13:09:03,383 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho-library/flute/5.3.0.0-190/flute-5.3.0.0-190.pom
+2015-10-06 13:09:03,384 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:04,908 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.pentaho.org/artifactory/repo/pentaho/pentaho-database-model/5.3.0.0-190/pentaho-database-model-5.3.0.0-190.pom
+2015-10-06 13:09:07,403 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/pentaho/pentaho-database-model/5.3.0.0-190/pentaho-database-model-5.3.0.0-190.pom
+2015-10-06 13:09:07,404 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:08,177 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:08,199 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:08,756 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho-library:flute:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:08,770 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for pentaho:pentaho-database-model:jar:5.3.0.0-190 is missing, no dependency information available
+2015-10-06 13:09:09,045 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:09:09,047 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-10-06 13:09:09,050 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:09:09,051 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:11:07,289 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:11:07,295 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:11:07,308 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:11:07,308 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:12:02,224 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:12:02,227 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:12:02,230 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:12:02,231 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:16:54,911 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:16:54,913 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:16:54,916 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:16:54,917 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources
+2015-10-06 13:19:01,592 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:19:01,594 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2015-10-06 13:19:01,597 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-06 13:19:01,597 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ha/Documents/JavaEE/newworkspace/BreaProj/Brea/Development/source/BreaProjects/breaWebapp/src/test/resources

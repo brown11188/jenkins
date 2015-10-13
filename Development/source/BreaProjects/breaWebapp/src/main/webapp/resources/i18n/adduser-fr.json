@@ -1,0 +1,8 @@
+{
+    "ADD_USER_TITLE" : "Ajouter un utilisateur",
+    "USER_NAME": "Nom d'utilisateur:",
+    "ENTER_USER_NAME" : "Entrez le nom d'utilisateur",
+    "USER_NAME_NAME_ERROR_REQUIRED" : "Nom d'utilisateur est nécessaire",
+    "CREATE" : "créer",
+    "USER_NAME_NAME_ERROR_EXISTS":"Ce nom d'utilisateur existe déjà!"
+}

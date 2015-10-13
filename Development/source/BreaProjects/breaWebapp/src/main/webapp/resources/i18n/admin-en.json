@@ -1,0 +1,14 @@
+{
+    "ADMIN_TITLE": "Brea",
+    "USER_PROFILE" : "User Profile",
+    "MENU_LOGOUT": "Logout",
+    "MENU_USER":"Users", 
+    "MENU_CHANGE_PASSWORD": "Change Password",
+    "MENU_HOME":"Home",
+    "HELLO_WORLD":"Hello World",
+    "HELLO_SPRING_THEME":"Hello Spring Theme",
+    "ENGLISH" : "English",
+    "FRENCH" : "French",
+    "ADD_USER": "Add User",
+    "YOUR_ACCOUNT":"Your Account"
+}

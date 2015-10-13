@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 9, 2015 1:45:50 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.enclaveit.brea.entities.Users" table="users" catalog="brea">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="roles" class="com.enclaveit.brea.entities.Roles" fetch="select">
+            <column name="role_id" not-null="true" />
+        </many-to-one>
+        <property name="username" type="string">
+            <column name="username" length="45" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="60" not-null="true" />
+        </property>
+        <property name="enabled" type="boolean">
+            <column name="enabled" not-null="true" />
+        </property>
+        <one-to-one name="usersInfo" class="com.enclaveit.brea.entities.UsersInfo" cascade="save-update"></one-to-one>
+    </class>
+</hibernate-mapping>

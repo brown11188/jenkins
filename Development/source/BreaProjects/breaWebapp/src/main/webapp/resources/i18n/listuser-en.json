@@ -1,0 +1,27 @@
+{
+    "LST_LIST_USER":"List User",
+    "LST_SHOW" : "Show",
+    "LST_ENTRIES":"entries",
+    "LST_SEARCH":"Search",
+    "LST_TYPE_TO_SEARCH" : "Type to search",
+    "LST_USER_NAME" : "User Name",
+    "LST_FRIST_NAME":"First Name",
+    "LST_LAST_NAME":"Last Name",
+    "LST_EMAIL":"Email",
+    "LST_PHONE":"Phone",
+    "LST_ADDRESS":"Address",
+    "LST_ROLE":"Role",
+    "LST_STATUS":"Status",
+    "LST_ACTIONS":"Actions",
+    "LST_NO_RESULTS_FOUND":"No results found",
+    "LST_EDIT" :"Edit",
+    "LST_DELETE":"Delete",
+    "LST_DELETE_TITLE" : "Delete ",
+    "LST_DELETE_CONTENT" : "Are you sure you want to delete this user?",
+    "LST_BTN_CANCEL" : "Cancel",
+    "LST_UPDATE_SUCCESS":"Updated successfully!",
+    "LST_DELETE_SUCCESS":"Deleted successfully!",
+    "LST_CREATE_SUCCESS" : "User account has been created successfully!",
+    "LST_ERROR_GET_LIST_USER":"Something went wrong. Cannot get list user!"
+    
+}

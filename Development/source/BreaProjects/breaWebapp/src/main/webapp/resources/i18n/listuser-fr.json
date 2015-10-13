@@ -1,0 +1,27 @@
+{
+    "LST_LIST_USER":"Liste utilisateur",
+    "LST_SHOW" : "Montrer",
+    "LST_ENTRIES":"entrées",
+    "LST_SEARCH":"Recherche",
+    "LST_TYPE_TO_SEARCH" : "Tapez à la recherche",
+    "LST_USER_NAME" : "Nom d'utilisateur",
+    "LST_FRIST_NAME":"Prénom",
+    "LST_LAST_NAME":"Nom de famille",
+    "LST_EMAIL":"Email",
+    "LST_PHONE":"Téléphone",
+    "LST_ADDRESS":"Adresse",
+    "LST_ROLE":"Rôle",
+    "LST_STATUS":"Statut",
+    "LST_ACTIONS":"Actes",
+    "LST_NO_RESULTS_FOUND":"Aucun résultat trouvé",
+    "LST_EDIT" :"Modifier",
+    "LST_DELETE":"Effacer",
+    "LST_DELETE_TITLE" : "Effacer ",
+    "LST_DELETE_CONTENT" : "Êtes-vous sûr de vouloir supprimer cet utilisateur?",
+    "LST_BTN_CANCEL" : "annuler",
+    "LST_UPDATE_SUCCESS":"Mise à jour avec succès!",
+    "LST_DELETE_SUCCESS":"Supprimé avec succès!",
+    "LST_CREATE_SUCCESS" : "Le compte utilisateur a été créé avec succès!",
+    "LST_ERROR_GET_LIST_USER" : "Quelque chose a mal tourné. Impossible d'obtenir la liste des utilisateurs!"
+    
+}

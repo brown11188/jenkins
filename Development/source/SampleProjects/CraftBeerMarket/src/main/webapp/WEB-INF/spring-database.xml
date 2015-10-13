@@ -1,0 +1,148 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <!-- MySQL data source -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+        destroy-method="close">
+        <property name="driverClassName" value="org.postgresql.Driver" />
+        <property name="url" value="jdbc:postgresql://localhost:5432/TestDataBase" />
+        <property name="username" value="postgres" />
+        <property name="password" value="123456" />
+        <property name="maxActive" value="-1"/>
+    </bean>
+
+    <!-- If request parameter "targetUrl" is existed, then forward to this url --> 
+    <!-- For update login form -->
+    <bean id="savedRequestAwareAuthenticationSuccessHandler"
+        class="org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler">
+        <property name="targetUrlParameter" value="targetUrl" />
+     </bean>
+
+    <!-- Hibernate session factory -->
+    <bean id="sessionFactory"
+        class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- ORM Hibernate xml mapping -->
+<!--         <property name="mappingResources"> -->
+<!--             <list> -->
+<!--                 <value>orm.mapping/UserRoles.hbm.xml</value> -->
+<!--                 <value>orm.mapping/Users.hbm.xml</value> -->
+                <!-- Varick add end 20150924 -->
+<!--                 <value>orm.mapping/Customers.hbm.xml</value> -->
+                <!-- Varick add end 20150924 -->
+<!--             </list> -->
+<!--         </property> -->
+        <property name="hibernateProperties">
+            <props>
+            <prop key="hibernate.dialect">
+                           org.hibernate.dialect.PostgreSQLDialect
+                        </prop>
+            <prop key="hibernate.format_sql">true</prop>
+            <prop key="hibernate.show_sql">true</prop>
+            </props>
+        </property>
+        <!-- Ace - Hibernate session factory - Add Start -->
+        <!-- ORM Hibernate mapping by annotaion -->
+        <property name="annotatedClasses">
+            <list>
+                <value>com.enclaveit.model.Category</value>
+                <value>com.enclaveit.model.Beer</value>
+                <!-- Varick add end 20150924 -->
+                <value>com.enclaveit.model.Users</value>
+                <!-- Varick add end 20150924 -->
+                <value>com.enclaveit.model.UserRoles</value>
+                <value>com.enclaveit.model.Customers</value>
+                <value>com.enclaveit.model.UserInfo</value>
+                <value>com.enclaveit.model.Passport</value>
+                <value>com.enclaveit.model.AccessToken</value>
+            </list>
+        </property>
+        <!-- Ace - Hibernate session factory - Add End -->
+    </bean>
+
+    <bean id="userDao" class="com.enclaveit.dao.UserDAOImpl" />
+
+    <bean id="myUserDetailsService" 
+                class="com.enclaveit.service.UserLoginService">
+        <property name="userDao" ref="userDao" />
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <bean id="beerDao" class="com.enclaveit.dao.BeerDAOImpl">
+    <property name="sessionFactory" ref="sessionFactory" /></bean>
+    
+    <bean id="beerService" 
+                class="com.enclaveit.service.BeerServiceImpl">
+        <property name="beerDao" ref="beerDao" />
+    </bean>
+
+    <bean id="sessionUtils" class="com.enclaveit.common.HibernateUtils">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    
+    <bean id="customerDao" class="com.enclaveit.dao.CustomerDAOImpl" />
+
+    <bean id="customerService" class="com.enclaveit.service.CustomerServiceImpl">
+        <property name="customerDao" ref="customerDao"></property>
+    </bean>
+
+    <!-- Varick add start 20150924 -->
+    <bean id="userService" class="com.enclaveit.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <!-- Varick add end 20150924 -->
+
+        <!-- Ace - Hibernate session factory - Add Start -->
+    <bean id="categoryDAO" class="com.enclaveit.dao.CategoryDaoImpl">
+       <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <bean id="categoryService" class="com.enclaveit.service.CategoryServiceImpl">
+        <property name="categoryDAO" ref="categoryDAO"></property>
+    </bean>
+     <!-- Ace - Hibernate session factory - Add End -->
+     
+     <bean id="passportDAO" class="com.enclaveit.dao.PassportDAOImpl">
+       <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <bean id="passportService" class="com.enclaveit.service.PassportServiceImpl">
+        <property name="passportDAO" ref="passportDAO"></property>
+        <property name="userDAO" ref="userDao"></property>
+        <property name="beerDAO" ref="beerDao"></property>
+    </bean>
+    
+    <bean id="accessTokenDAO" class="com.enclaveit.dao.AccessTokenDAOImpl">
+       <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <bean id="accessTokenService" class="com.enclaveit.service.AccessTokenServiceImpl">
+        <property name="accessTokenDAO" ref="accessTokenDAO"></property>
+    </bean>
+
+    <tx:annotation-driven />
+
+    <!-- MUST have transaction manager, using aop and aspects  -->
+    <bean id="transactionManager"
+        class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+        <tx:method name="get*" read-only="true" />
+        <tx:method name="find*" read-only="true" />
+        <tx:method name="*" />
+        </tx:attributes>
+    </tx:advice>
+
+<!--     <aop:config> -->
+<!--         <aop:pointcut id="userServicePointCut" -->
+<!--         expression="execution(* com.enclaveit.brea.services.*Service.*(..))" /> -->
+<!--         <aop:advisor advice-ref="txAdvice" pointcut-ref="userServicePointCut" /> -->
+<!--     </aop:config> -->
+</beans>

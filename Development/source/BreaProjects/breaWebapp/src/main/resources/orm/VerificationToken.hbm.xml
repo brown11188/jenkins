@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 8, 2015 3:32:06 PM by Hibernate Tools 4.3.1.Final -->
+<hibernate-mapping>
+    <class name="VerificationToken" table="verification_token" catalog="brea" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="foreign">
+                <param name="property">users</param>
+            </generator>
+        </id>
+        <one-to-one name="users" class="com.enclaveit.brea.entities.Users" constrained="true"></one-to-one>
+        <property name="token" type="string">
+            <column name="token" length="32" not-null="true" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" not-null="true" />
+        </property>
+        <property name="tokenType" type="string">
+            <column name="token_type" length="32" not-null="true" />
+        </property>
+        <property name="expiresTime" type="timestamp">
+            <column name="expires_time" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
